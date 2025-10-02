@@ -14,6 +14,7 @@
 
 console.log(evaluateRisk(15000, true, 4, true)); // "High"
 
+//TAREA 01
 
 // Definición de la función evaluateRisk
 function evaluateRisk(income, hasLoans, latePayments, isStudent) {
@@ -40,4 +41,5 @@ console.log(evaluateRisk(35000, false, 1, false)); // Moderate
 console.log(evaluateRisk(62500, false, 0, false)); // Low
 console.log(evaluateRisk(18000, true, 2, true)); // High
 console.log(evaluateRisk(44000, true, 3, false)); // Moderate
+
 console.log(evaluateRisk(22500, false, 3, true)); // Low
